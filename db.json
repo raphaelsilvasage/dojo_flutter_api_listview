@@ -1,0 +1,16 @@
+{
+  "posts": [
+    { "id": 1, "titulo": "DOJO Sage Flutter" },
+    { "id": 2, "titulo": "Flutter é legal" },
+    { "id": 3, "titulo": "Vai filhão!" }
+  ],
+  "comentarios": [
+    { "id": 1, "comentario": "Toda segunda as 9 horas da manhã", "postId": 1 },
+    { "id": 2, "comentario": "Bora!", "postId": 1 },
+    { "id": 3, "comentario": "Hahahahaha", "postId": 3 }
+  ],
+  "perfil": {
+    "nome": "raphael",
+    "idade": 30
+  }
+}

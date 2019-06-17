@@ -1,2 +1,7 @@
-# dojo_flutter_api_listview
-Código utilizado para o DOJO de Flutter na Sage, explicando o funcionamento de consumo de APIs e uso de ListView em Flutter
+# DOJO Flutter API e ListView
+
+Projeto utilizado no DOJO da Sage de Flutter sobre consumo de APIs e ListViews
+
+## API
+
+O projeto utilizou a API de testes do site https://my-json-server.typicode.com, a URL da API de testes é https://my-json-server.typicode.com/raphaelsilvasage/dojo_flutter_api_listview
