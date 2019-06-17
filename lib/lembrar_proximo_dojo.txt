@@ -18,6 +18,10 @@ Para o próximo DOJO
 
     * Criar loading;
 
+    * Navegação entre telas
+
+    * Passagem de parâmetros entre telas
+
     * Criar Novo projeto com acesso a camera
 
     * Configurar Firebase
