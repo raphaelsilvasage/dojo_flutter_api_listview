@@ -9,8 +9,15 @@ Para o próximo DOJO
     * Criar método _consumirAPI no consumoApiView e tirar do onPressed;
     * ConsumoAPIView => usar o setState para renderizar o resultado no Text;
     * Fazer a API Helper ser singleton;
-
+    
     * Explorando ScrollPhysics
         NeverScrollablePhysics
         BouncingScrollPhysics -> iOS
         ClampingScrollPhysics -> Android
+
+
+    * Criar loading;
+
+    * Criar Novo projeto com acesso a camera
+
+    * Configurar Firebase
