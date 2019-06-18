@@ -8,7 +8,7 @@ https://my-json-server.typicode.com/raphaelsilvasage/dojo_flutter_api_listview/c
 Para o próximo DOJO
     * Criar método _consumirAPI no consumoApiView e tirar do onPressed;
     * ConsumoAPIView => usar o setState para renderizar o resultado no Text;
-    * Fazer a API Helper ser singleton;
+    * Fazer a API Helper ser singleton; ??? Talvez
     
     * Explorando ScrollPhysics
         NeverScrollablePhysics
@@ -18,10 +18,8 @@ Para o próximo DOJO
 
     * Criar loading;
 
-    * Navegação entre telas
-
-    * Passagem de parâmetros entre telas
+    * Criar Novo projeto com navegação entre telas E passagem de parâmetros
 
     * Criar Novo projeto com acesso a camera
 
-    * Configurar Firebase
+    * Criar Novo projeto com configuração de Firebase
