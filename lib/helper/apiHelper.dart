@@ -17,6 +17,8 @@ class ApiHelper {
     Perfil perfilRetorno;
 
     http.Response response = await http.get(endpointPergilGET);
+    
+    await Future.delayed(Duration(seconds: 5));
 
     int statusCode = response.statusCode;
     if (statusCode < 200 || statusCode > 400) {

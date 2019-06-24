@@ -9,13 +9,17 @@ class _ListViewSimplesViewState extends State<ListViewSimplesView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.red,
-          title: Text("ListView Simples"),
-          centerTitle: true,
-        ),
-        body: Center(
-          child: ListView(children: <Widget>[
+      appBar: AppBar(
+        backgroundColor: Colors.red,
+        title: Text("ListView Simples"),
+        centerTitle: true,
+      ),
+      body: Center(
+        child: ListView(
+          //physics: NeverScrollableScrollPhysics() // Padrão
+          physics: BouncingScrollPhysics(), // iOS
+          //physics: ClampingScrollPhysics(), // Android
+          children: <Widget>[
             ListTile(
               title: Text("Título 01"),
               trailing: Icon(Icons.cake, color: Colors.blue),
@@ -50,7 +54,9 @@ class _ListViewSimplesViewState extends State<ListViewSimplesView> {
             Text("Item 03", style: TextStyle(fontSize: 40, color: Colors.orange)),
             Text("Item 03", style: TextStyle(fontSize: 40, color: Colors.orange)),
             Text("Item 03", style: TextStyle(fontSize: 40, color: Colors.orange)),
-          ]),
-        ));
+          ],
+        ),
+      ),
+    );
   }
 }

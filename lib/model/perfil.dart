@@ -9,4 +9,8 @@ class Perfil{
     idade = json["idade"];
   }
   
+  @override
+  String toString() {
+    return "Nome: ${this.nomePessoa}\nIdade:${this.idade}";
+  }
 }

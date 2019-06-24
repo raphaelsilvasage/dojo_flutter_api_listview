@@ -1,5 +1,6 @@
 import 'package:dojo_flutter_api_listas/views/consumoAPIView.dart';
 import 'package:dojo_flutter_api_listas/views/listViewSimples.dart';
+import 'package:dojo_flutter_api_listas/views/listView_builder.dart';
 import 'package:flutter/material.dart';
 
 class PrincipalView extends StatefulWidget {
@@ -31,6 +32,12 @@ class _PrincipalViewState extends State<PrincipalView> {
               child: Text("ListView"),
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(builder: (context) => ListViewSimplesView()));
+              },
+            ),
+            RaisedButton(
+              child: Text("ListView Builder"),
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(builder: (context) => ListViewBuilderView()));
               },
             ),
           ],
