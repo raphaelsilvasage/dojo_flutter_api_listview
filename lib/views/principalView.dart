@@ -1,4 +1,5 @@
 import 'package:dojo_flutter_api_listas/views/consumoAPIView.dart';
+import 'package:dojo_flutter_api_listas/views/listViewSeparatedView.dart';
 import 'package:dojo_flutter_api_listas/views/listViewSimples.dart';
 import 'package:dojo_flutter_api_listas/views/listView_builder.dart';
 import 'package:flutter/material.dart';
@@ -38,6 +39,12 @@ class _PrincipalViewState extends State<PrincipalView> {
               child: Text("ListView Builder"),
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(builder: (context) => ListViewBuilderView()));
+              },
+            ),
+            RaisedButton(
+              child: Text("ListView Separeted"),
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(builder: (context) => ListViewSeparatedView()));
               },
             ),
           ],
